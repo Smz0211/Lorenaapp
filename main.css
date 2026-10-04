@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-attachment: fixed;
+    background: linear-gradient(black, white);
+}
+
+.index{
+    height: 98.35vh;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    border-radius: 50px;
+    border:none;
+
+    color:white;
+    background-color: black;
+    
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    width: 20vh;
+    height: 5vh;
+}
+.btn:hover{
+    transition: 500ms;
+    color:black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.montserratTxt{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    color:white;
+}
+
+.txtbox{
+    border-radius: 50px;
+    border-color: white;
+    border:1px solid white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    background-color: transparent;
+    width: 25vh;
+    height: 3vh;
+}
+.txtbox:focus{
+    color:white;
+    border:2px solid white;
+}
+.txtbox::placeholder{
+    color: rgb(194, 193, 193);
+}
+
+#privada{
+    border-radius:20vh;
+    background-color: white;
+    border: 0.2vh solid black;
+    width: 28vh;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#descarga{
+    border-radius:2vh;
+    background-color: white;
+    border: 0.2vh solid black;
+    width: 28vh;
+    height: 15vh;
+
+    margin-bottom: 2vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#btnDescarga{
+    border-radius:20vh;
+    width: 5vh;
+    height: 5vh;
+    border: 0.2vh solid black;
+    background-color: grey;
+    cursor: pointer;
+}
+#agua{
+    width: 20vh;
+    height: 20vh;
+    background-color: rgb(0, 134, 243);
+    border: 0.2vh solid black;
+    border-radius: 2vh 2vh 20vh 20vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
